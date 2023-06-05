@@ -111,3 +111,26 @@ p1.eat();
 p1.eat();
 p1.exercise();
 p1.exercise();
+
+console.log(p1);
+
+class Dinner {
+    constructor(appetizer, entree, dessert) {
+        this.appetizer = appetizer;
+        this.entree = entree;
+        this.dessert = dessert;
+    }
+}
+
+class Chef {
+    newDinner(arg1, arg2, arg3){
+        const newMeal = new Dinner(arg1, arg2, arg3)
+        return newMeal;
+    }
+}
+
+const emeril = new Chef();
+
+console.log(emeril.newDinner('app', 'entree', 'dessert'));
+console.log(emeril.newDinner('Salad', 'steak', 'ice cream'));
+console.log(emeril.newDinner('app', 'entree', 'dessert'));
