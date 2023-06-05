@@ -63,23 +63,51 @@ class Person{
     }
 }
 
-const ham1 = new Hamster('larry');
-const pers1 = new Person('dave')
-const pers2 = new Person('dan')
+const p1 = new Person('Timmy');
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.eat();
+p1.eat();
+p1.eat();
+p1.eat();
+p1.eat();
+p1.exercise();
+p1.exercise();
+p1.exercise();
+p1.exercise();
+p1.exercise();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
 
+const h1 = new Hamster('Gus');
+p1.buyHamster(h1);
 
-console.log(ham1);
-console.log(pers1);
-
-pers1.getName();
-pers1.greet(pers2)
-
-pers1.eat();
-pers1.eat();
-pers1.exercise();
-console.log(pers1.getWeight());
-console.log(pers1.mood);
-pers2.ageUp()
-pers1.buyHamster(ham1);
-console.log(pers1);
-console.log(pers2);
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.ageUp();
+p1.eat();
+p1.eat();
+p1.exercise();
+p1.exercise();
